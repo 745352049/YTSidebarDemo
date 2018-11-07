@@ -6,8 +6,8 @@
 //  Copyright © 2018年 水晶岛. All rights reserved.
 //
 
-#import "YTRootViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface YTLeftViewController : YTRootViewController
+@interface YTLeftViewController : UITableViewController
 
 @end

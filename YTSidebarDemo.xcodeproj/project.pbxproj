@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F4531B5219289A900E7E320 /* YTLeftPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4531B4219289A900E7E320 /* YTLeftPushViewController.m */; };
 		3F7B8C4C214A40AB00F36277 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B8C4B214A40AB00F36277 /* AppDelegate.m */; };
 		3F7B8C4F214A40AB00F36277 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B8C4E214A40AB00F36277 /* ViewController.m */; };
 		3F7B8C52214A40AB00F36277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B8C50214A40AB00F36277 /* Main.storyboard */; };
 		3F7B8C54214A40AB00F36277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B8C53214A40AB00F36277 /* Assets.xcassets */; };
 		3F7B8C57214A40AB00F36277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B8C55214A40AB00F36277 /* LaunchScreen.storyboard */; };
 		3F7B8C5A214A40AB00F36277 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B8C59214A40AB00F36277 /* main.m */; };
+		3F7B8C62214A423B00F36277 /* YTTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B8C61214A423B00F36277 /* YTTabBarViewController.m */; };
+		3F7B8C65214A42A300F36277 /* YTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B8C64214A42A300F36277 /* YTNavigationViewController.m */; };
+		3F7B8C68214A436200F36277 /* YTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B8C67214A436200F36277 /* YTRootViewController.m */; };
+		3F7B8C6B214A438100F36277 /* YTOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B8C6A214A438100F36277 /* YTOneViewController.m */; };
+		3F7B8C6E214A438D00F36277 /* YTTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B8C6D214A438D00F36277 /* YTTwoViewController.m */; };
+		3F7B8C71214A448A00F36277 /* YTThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B8C70214A448A00F36277 /* YTThreeViewController.m */; };
+		3F7B8C74214A463800F36277 /* YTLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B8C73214A463800F36277 /* YTLeftViewController.m */; };
+		3F7B8C78214A46D000F36277 /* YTSidebarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B8C77214A46D000F36277 /* YTSidebarManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F4531B3219289A900E7E320 /* YTLeftPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTLeftPushViewController.h; sourceTree = "<group>"; };
+		3F4531B4219289A900E7E320 /* YTLeftPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTLeftPushViewController.m; sourceTree = "<group>"; };
 		3F7B8C47214A40AB00F36277 /* YTSidebarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTSidebarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7B8C4A214A40AB00F36277 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F7B8C4B214A40AB00F36277 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +37,22 @@
 		3F7B8C56214A40AB00F36277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F7B8C58214A40AB00F36277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F7B8C59214A40AB00F36277 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F7B8C60214A423B00F36277 /* YTTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTTabBarViewController.h; sourceTree = "<group>"; };
+		3F7B8C61214A423B00F36277 /* YTTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTTabBarViewController.m; sourceTree = "<group>"; };
+		3F7B8C63214A42A300F36277 /* YTNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTNavigationViewController.h; sourceTree = "<group>"; };
+		3F7B8C64214A42A300F36277 /* YTNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTNavigationViewController.m; sourceTree = "<group>"; };
+		3F7B8C66214A436200F36277 /* YTRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTRootViewController.h; sourceTree = "<group>"; };
+		3F7B8C67214A436200F36277 /* YTRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTRootViewController.m; sourceTree = "<group>"; };
+		3F7B8C69214A438100F36277 /* YTOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTOneViewController.h; sourceTree = "<group>"; };
+		3F7B8C6A214A438100F36277 /* YTOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTOneViewController.m; sourceTree = "<group>"; };
+		3F7B8C6C214A438D00F36277 /* YTTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTTwoViewController.h; sourceTree = "<group>"; };
+		3F7B8C6D214A438D00F36277 /* YTTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTTwoViewController.m; sourceTree = "<group>"; };
+		3F7B8C6F214A448A00F36277 /* YTThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTThreeViewController.h; sourceTree = "<group>"; };
+		3F7B8C70214A448A00F36277 /* YTThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTThreeViewController.m; sourceTree = "<group>"; };
+		3F7B8C72214A463800F36277 /* YTLeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTLeftViewController.h; sourceTree = "<group>"; };
+		3F7B8C73214A463800F36277 /* YTLeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTLeftViewController.m; sourceTree = "<group>"; };
+		3F7B8C76214A46D000F36277 /* YTSidebarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTSidebarManager.h; sourceTree = "<group>"; };
+		3F7B8C77214A46D000F36277 /* YTSidebarManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTSidebarManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +85,27 @@
 		3F7B8C49214A40AB00F36277 /* YTSidebarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3F7B8C75214A468A00F36277 /* YTSidebarManager */,
 				3F7B8C4A214A40AB00F36277 /* AppDelegate.h */,
 				3F7B8C4B214A40AB00F36277 /* AppDelegate.m */,
 				3F7B8C4D214A40AB00F36277 /* ViewController.h */,
 				3F7B8C4E214A40AB00F36277 /* ViewController.m */,
+				3F7B8C60214A423B00F36277 /* YTTabBarViewController.h */,
+				3F7B8C61214A423B00F36277 /* YTTabBarViewController.m */,
+				3F7B8C63214A42A300F36277 /* YTNavigationViewController.h */,
+				3F7B8C64214A42A300F36277 /* YTNavigationViewController.m */,
+				3F7B8C66214A436200F36277 /* YTRootViewController.h */,
+				3F7B8C67214A436200F36277 /* YTRootViewController.m */,
+				3F7B8C69214A438100F36277 /* YTOneViewController.h */,
+				3F7B8C6A214A438100F36277 /* YTOneViewController.m */,
+				3F7B8C6C214A438D00F36277 /* YTTwoViewController.h */,
+				3F7B8C6D214A438D00F36277 /* YTTwoViewController.m */,
+				3F7B8C6F214A448A00F36277 /* YTThreeViewController.h */,
+				3F7B8C70214A448A00F36277 /* YTThreeViewController.m */,
+				3F7B8C72214A463800F36277 /* YTLeftViewController.h */,
+				3F7B8C73214A463800F36277 /* YTLeftViewController.m */,
+				3F4531B3219289A900E7E320 /* YTLeftPushViewController.h */,
+				3F4531B4219289A900E7E320 /* YTLeftPushViewController.m */,
 				3F7B8C50214A40AB00F36277 /* Main.storyboard */,
 				3F7B8C53214A40AB00F36277 /* Assets.xcassets */,
 				3F7B8C55214A40AB00F36277 /* LaunchScreen.storyboard */,
@@ -69,6 +113,15 @@
 				3F7B8C59214A40AB00F36277 /* main.m */,
 			);
 			path = YTSidebarDemo;
+			sourceTree = "<group>";
+		};
+		3F7B8C75214A468A00F36277 /* YTSidebarManager */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B8C76214A46D000F36277 /* YTSidebarManager.h */,
+				3F7B8C77214A46D000F36277 /* YTSidebarManager.m */,
+			);
+			path = YTSidebarManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +195,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7B8C65214A42A300F36277 /* YTNavigationViewController.m in Sources */,
 				3F7B8C4F214A40AB00F36277 /* ViewController.m in Sources */,
+				3F7B8C74214A463800F36277 /* YTLeftViewController.m in Sources */,
 				3F7B8C5A214A40AB00F36277 /* main.m in Sources */,
+				3F7B8C68214A436200F36277 /* YTRootViewController.m in Sources */,
 				3F7B8C4C214A40AB00F36277 /* AppDelegate.m in Sources */,
+				3F7B8C62214A423B00F36277 /* YTTabBarViewController.m in Sources */,
+				3F7B8C6E214A438D00F36277 /* YTTwoViewController.m in Sources */,
+				3F4531B5219289A900E7E320 /* YTLeftPushViewController.m in Sources */,
+				3F7B8C78214A46D000F36277 /* YTSidebarManager.m in Sources */,
+				3F7B8C71214A448A00F36277 /* YTThreeViewController.m in Sources */,
+				3F7B8C6B214A438100F36277 /* YTOneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +343,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5TCTELK25;
 				INFOPLIST_FILE = YTSidebarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CrystalIsland.YTSidebarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,10 +358,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5TCTELK25;
 				INFOPLIST_FILE = YTSidebarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CrystalIsland.YTSidebarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

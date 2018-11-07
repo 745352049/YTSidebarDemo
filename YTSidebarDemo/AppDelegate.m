@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YTTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    YTTabBarViewController *tabbar = [[YTTabBarViewController alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = tabbar;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

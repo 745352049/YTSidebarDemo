@@ -1,24 +1,24 @@
 //
-//  YTTwoViewController.m
+//  YTLeftPushViewController.m
 //  YTSidebarDemo
 //
-//  Created by 水晶岛 on 2018/9/13.
-//  Copyright © 2018年 水晶岛. All rights reserved.
+//  Created by 水晶岛 on 2018/11/7.
+//  Copyright © 2018 水晶岛. All rights reserved.
 //
 
-#import "YTTwoViewController.h"
+#import "YTLeftPushViewController.h"
 
-@interface YTTwoViewController ()
+@interface YTLeftPushViewController ()
 
 @end
 
-@implementation YTTwoViewController
+@implementation YTLeftPushViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.navigationItem.title = @"你的";
+    self.navigationItem.title = @"LeftPush";
 }
 
 - (void)didReceiveMemoryWarning {

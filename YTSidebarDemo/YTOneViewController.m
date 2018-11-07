@@ -8,6 +8,8 @@
 
 #import "YTOneViewController.h"
 
+#import "YTSidebarManager.h"
+
 @interface YTOneViewController ()
 
 @end
@@ -17,21 +19,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.navigationItem.title = @"我的";
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setTitle:@"点击" forState:UIControlStateNormal];
+    btn.frame = CGRectMake(0, 200, 100, 40);
+    [btn setBackgroundColor:[UIColor redColor]];
+    [btn addTarget:self action:@selector(action) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+- (void)action {
+    [[YTSidebarManager sharedManager] showLeftView];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
